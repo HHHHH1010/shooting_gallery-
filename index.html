@@ -9,12 +9,23 @@
   </head>
   <body>
 
+
     <!-- Main scene definition -->
     <a-scene id="scene">
+           <a-entity id="box" 
+                geometry="primitive:box"
+                position="0 3 -5"
+                material="color:blue">
+
+      </a-entity>
+      <a-entity light="type:ambient; color: white;"
+                location="0 0 0">
+      </a-entity>
     <a-entity environment="preset:starry"></a-entity>
     </a-scene>
 
  
+
 
     
   </body>
